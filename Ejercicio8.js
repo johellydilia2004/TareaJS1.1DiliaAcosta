@@ -1,4 +1,4 @@
-// Filtrar objetos por múltiples condiciones
+// Ejercicio 8: Filtrar objetos por múltiples condiciones
 function filtrarDisponibles(productos, categoriaBuscada) {
   return productos.filter(producto =>
     producto.categoria === categoriaBuscada && producto.stock > 0
